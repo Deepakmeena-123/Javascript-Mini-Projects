@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📝 Smart Text Editor</h1>
+
+    <textarea
+        id="input-field"
+        placeholder="Start typing here..."
+    ></textarea>
+
+    <div class="btns-container">
+
+        <button class="btn uppercase">UPPERCASE</button>
+        <button class="btn lowercase">lowercase</button>
+        <button class="btn capitalize">Capitalize</button>
+
+        <button class="btn bold">Bold</button>
+        <button class="btn italic">Italic</button>
+        <button class="btn underline">Underline</button>
+
+        <button class="btn copy">Copy</button>
+        <button class="btn clear">Clear</button>
+
+    </div>
+
+    <div class="stats">
+        <span>Words: <strong id="wordCount">0</strong></span>
+        <span>Characters: <strong id="charCount">0</strong></span>
+    </div>
+
+    <div id="output-field">
+        Output Preview
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
